@@ -47,14 +47,25 @@
 
 # KeyError:
 # Create a dictionary and try to access a key that doesn’t exist. Handle the exception and print an error message.
-dict1={'name':'subodh','age':23,'city':'pune'}
-try:
-    print(dict1['address'])
-except KeyError as Ke:
-    print(f"{Ke} key is not present in the dictionary")
+# dict1={'name':'subodh','age':23,'city':'pune'}
+# try:
+#     print(dict1['address'])
+# except KeyError as Ke:
+#     print(f"{Ke} key is not present in the dictionary")
 
 # TypeError:
 # Write a function that concatenates two strings. Handle the error if non-string values are passed to the function.
+# what are the non string values
+#string example for this code 
+def add(str1,str2):
+    try:
+        return str1+str2
+    except TypeError as Te:
+        print(f"{Te} is not possible")
+        print("Please enter a string value")
+print(add("subodh","shivaji"))
+print(add("subodh",19))
+
 
 # IndexError:
 # Write a program to access an element from a list by index. Handle the case where the index is out of range.
