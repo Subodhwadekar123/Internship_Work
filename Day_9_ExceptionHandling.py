@@ -13,45 +13,45 @@
 
 # ZeroDivisionError:
 # Write a program to divide two numbers. Handle the case where the denominator is zero and print an appropriate message.
-# num1=int(input("Enter the first number: "))
-# num2=int(input("Enter the second number: "))
-# try:
-#     divide=num1/num2
-#     print(f"Division is :{divide}")
-# except ZeroDivisionError as Ze:
-#     print(f"{Ze} is not possible")
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+try:
+    divide=num1/num2
+    print(f"Division is :{divide}")
+except ZeroDivisionError as Ze:
+    print(f"{Ze} is not possible")
 
 # ValueError:
 # Write a program to accept an integer from the user. Handle the case where the input is not an integer.
-# try:
-#     num1=int(input("Enter Any number to print: "))
-# except ValueError as Ve:
-#     print(Ve)
-#     print(f"You cannot enter a value other than interger,Please enter a integer value")
-# else:
-#     sqr=num1**2
-#     print(f"Square of {num1} is {sqr}") 
+try:
+    num1=int(input("Enter Any number to print: "))
+except ValueError as Ve:
+    print(Ve)
+    print(f"You cannot enter a value other than interger,Please enter a integer value")
+else:
+    sqr=num1**2
+    print(f"Square of {num1} is {sqr}") 
 
 # FileNotFoundError:
 # Write a program to open a file for reading. Handle the error if the file does not exist.
-# filename=input("Enter the filename which you want to read:")
-# try:
+filename=input("Enter the filename which you want to read:")
+try:
 
-#     f=open(r"C:\Users\subod\Internship 2024-25\\"+filename+".txt",'r+')
-#     data=f.write("subodh shivaji wadekar")
+    f=open(r"C:\Users\subod\Internship 2024-25\\"+filename+".txt",'r+')
+    data=f.write("subodh shivaji wadekar")
     
-# except Exception as e:
-#     print(e)
-#     print("This file is not found please enter a existing file name...")
+except Exception as e:
+    print(e)
+    print("This file is not found please enter a existing file name...")
 
 
 # KeyError:
 # Create a dictionary and try to access a key that doesn’t exist. Handle the exception and print an error message.
-# dict1={'name':'subodh','age':23,'city':'pune'}
-# try:
-#     print(dict1['address'])
-# except KeyError as Ke:
-#     print(f"{Ke} key is not present in the dictionary")
+dict1={'name':'subodh','age':23,'city':'pune'}
+try:
+    print(dict1['address'])
+except KeyError as Ke:
+    print(f"{Ke} key is not present in the dictionary")
 
 # TypeError:
 # Write a function that concatenates two strings. Handle the error if non-string values are passed to the function.
@@ -69,9 +69,20 @@ print(add("subodh",19))
 
 # IndexError:
 # Write a program to access an element from a list by index. Handle the case where the index is out of range.
+list1=[1,2,3,4,5]
+try:
+    print(list1[4])
+    print(list1[6])
 
-# AttributeError:
-# Write a program to access a method that does not exist in an object. Handle the error appropriately.
+except IndexError as Ie:
+    print(f"{Ie} is not possible")
+    print("Index is out of range")
+
 
 # NameError:
 # Write a program to use a variable that has not been declared. Handle the error with a try-except block.
+try:
+    print(a)
+except NameError as Ne:
+    print(f"{Ne} is not possible")
+    print("Variable is not declared")
