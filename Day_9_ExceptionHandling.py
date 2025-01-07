@@ -36,6 +36,7 @@
 # Write a program to open a file for reading. Handle the error if the file does not exist.
 # filename=input("Enter the filename which you want to read:")
 # try:
+
 #     f=open(r"C:\Users\subod\Internship 2024-25\\"+filename+".txt",'r+')
 #     data=f.write("subodh shivaji wadekar")
     
@@ -46,11 +47,11 @@
 
 # KeyError:
 # Create a dictionary and try to access a key that doesn’t exist. Handle the exception and print an error message.
-
-
-
-
-
+dict1={'name':'subodh','age':23,'city':'pune'}
+try:
+    print(dict1['address'])
+except KeyError as Ke:
+    print(f"{Ke} key is not present in the dictionary")
 
 # TypeError:
 # Write a function that concatenates two strings. Handle the error if non-string values are passed to the function.
