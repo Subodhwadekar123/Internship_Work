@@ -46,14 +46,7 @@
 
 # KeyError:
 # Create a dictionary and try to access a key that doesn’t exist. Handle the exception and print an error message.
-dict={1:'subodh',2:'shivaji',3:'wadekar',4:'ssw'}
-try:
-    key=int(input("Enter the key to access the information:"))
-    if key in dict.items():
-        print(dict.key]:[values])
-except KeyError as Ke:
-    print(Ke)
-    print("Please Enter valid id to access the data...")
+
 
 
 
