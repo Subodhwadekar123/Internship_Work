@@ -1,0 +1,5 @@
+2025-01-08 22:35:26,862 - ERROR - Invalid input. Please enter a number.
+2025-01-08 22:35:44,989 - ERROR - Book 'www' does not exist.
+2025-01-08 22:35:53,616 - ERROR - Invalid input. Please enter a number.
+2025-01-08 22:36:43,229 - ERROR - Invalid input. Please enter a number.
+2025-01-08 22:37:10,728 - ERROR - Book 'ggereg' does not exist.
