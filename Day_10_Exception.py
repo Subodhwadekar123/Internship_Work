@@ -24,18 +24,18 @@
 # It is user defined exception
 
 
-# AssertionError
-try :
-    x=-1
-    y=-2
-    assert x>0 and y>0,"Both numbers should be positive"
-    print("Assertion passed")
-except AssertionError as Ae:
-    print(Ae)
-else:
-    print(f"Addition of {x} and {y} is {x+y}")
+# # AssertionError
+# try :
+#     x=-1
+#     y=-2
+#     assert x>0 and y>0,"Both numbers should be positive"
+#     print("Assertion passed")
+# except AssertionError as Ae:
+#     print(Ae)
+# else:
+#     print(f"Addition of {x} and {y} is {x+y}")
+# #Assert statement time consuming, 
+# # only used for debugging or testing 
 
-
-
-
+#Logging exception
         

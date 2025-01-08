@@ -16,12 +16,14 @@
 num1=int(input("Enter the first number: "))
 num2=int(input("Enter the second number: "))
 try:
-    divide=num1/num2
+    divide=num1/num2 
     print(f"Division is :{divide}")
 except ZeroDivisionError as Ze:
     print(f"{Ze} is not possible")
 
 # ValueError:
+
+
 # Write a program to accept an integer from the user. Handle the case where the input is not an integer.
 try:
     num1=int(input("Enter Any number to print: "))
@@ -86,3 +88,4 @@ except IndexError as Ie:
 # except NameError as Ne:
 #     print(f"{Ne} is not possible")
 #     print("Variable is not declared")
+
