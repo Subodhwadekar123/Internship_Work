@@ -1,0 +1,8 @@
+2025-01-08 20:29:44,137 - ERROR - Day_10_Exception.py:122 - Value cannot be negative user is checking age and entered negative value
+Traceback (most recent call last):
+  File "c:\Users\subod\Internship 2024-25\Internship_Work\Day_10_Exception.py", line 119, in <module>
+    Auth_age(age)
+    ~~~~~~~~^^^^^
+  File "c:\Users\subod\Internship 2024-25\Internship_Work\Day_10_Exception.py", line 109, in Auth_age
+    raise ValueError("Value cannot be negative")
+ValueError: Value cannot be negative
