@@ -81,8 +81,8 @@ except IndexError as Ie:
 
 # NameError:
 # Write a program to use a variable that has not been declared. Handle the error with a try-except block.
-try:
-    print(a)
-except NameError as Ne:
-    print(f"{Ne} is not possible")
-    print("Variable is not declared")
+# try:
+#     # print(a)
+# except NameError as Ne:
+#     print(f"{Ne} is not possible")
+#     print("Variable is not declared")
