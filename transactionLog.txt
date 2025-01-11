@@ -1,0 +1,18 @@
+2025-01-11 16:41:57 - Account created with initial balance: 1000
+2025-01-11 16:41:57 - Deposit: 500. Balance: 1500
+2025-01-11 16:42:54 - Account created with initial balance: 1000
+2025-01-11 16:42:54 - Deposit: 500. Balance: 1500
+2025-01-11 16:42:54 - Withdraw: 200. Balance: 1300
+2025-01-11 16:42:54 - Failed Withdrawal: -100. Error: Withdrawal amount must be greater than zero.
+2025-01-11 16:47:51 - Account created with initial balance: 1000
+2025-01-11 16:47:51 - Deposit: 500. Balance: 1500
+2025-01-11 16:47:51 - Withdraw: 200. Balance: 1300
+2025-01-11 16:47:51 - Failed Withdrawal: -100. Error: Withdrawal amount must be greater than zero.
+2025-01-11 16:48:27 - Account created with initial balance: 1000
+2025-01-11 16:48:27 - Deposit: 500. Balance: 1500
+2025-01-11 16:48:27 - Withdraw: 200. Balance: 1300
+2025-01-11 16:48:27 - Failed Withdrawal: -100. Error: Withdrawal amount must be greater than zero.
+2025-01-11 16:53:34 - Account created with initial balance: 1000
+2025-01-11 16:53:34 - Deposit: 500. Balance: 1500
+2025-01-11 16:53:34 - Withdraw: 200. Balance: 1300
+2025-01-11 16:53:34 - Failed Withdrawal: -100. Error: Withdrawal amount must be greater than zero.
